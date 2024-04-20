@@ -11,6 +11,7 @@ set (TESTBED_SOURCE_FILES
 	test.cpp
 	test.h
 	tests/box.cpp
+	tests/textprint.cpp
 )
 
 add_executable(testbed ${TESTBED_SOURCE_FILES})
