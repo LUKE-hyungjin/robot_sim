@@ -66,4 +66,4 @@ public:
     b2Body* m_bodies[e_rowCount * e_columnCount];
     int32 m_indices[e_rowCount * e_columnCount];
 };
-static int testIndex = RegisterTest("Stacking", "Box", Box::Create);
+static int testIndex = RegisterTest("Project", "Box", Box::Create);

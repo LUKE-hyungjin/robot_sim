@@ -20,4 +20,4 @@ class TextTest : public Test
             return new TextTest;
         }
     };
-static int testIndex = RegisterTest("Stacking", "TextTest", TextTest::Create);
+static int testIndex = RegisterTest("Tutorial", "TextTest", TextTest::Create);
