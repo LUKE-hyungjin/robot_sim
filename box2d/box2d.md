@@ -8,9 +8,12 @@ It operates on a Mac.
 ![](result_source/two_box.gif)
 
 ### Bodies
-- Static Body
+- Static Body(Color: Green)
 ![](result_source/static_body.png)
 
-- Dynamic Body
+- Dynamic Body(Color: Red)
 ![](result_source/dynamic_body.gif)
+
+- Kinematic Body(Color: Blue)
+![](result_source/kinematic_body.gif)
 
