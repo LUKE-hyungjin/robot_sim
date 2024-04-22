@@ -1,5 +1,4 @@
 #include "test.h"
-#include <iostream>
     
 class Bodies : public Test
     {
@@ -44,10 +43,6 @@ public:
             kinematicBody->SetLinearVelocity( b2Vec2( 4.5, 0 ) ); //move right 1 unit per second
             kinematicBody->SetAngularVelocity( 360 * DEGTORAD ); //1 turn per second counter-clockwis
 
-            for ( b2Body* b = m_world->GetBodyList(); b; b = b->GetNext())
-            {
-                std::cout << b->GetType() << std::endl;
-            }
         } 
     
         void Step(Settings& settings) override

@@ -13,6 +13,7 @@ set (TESTBED_SOURCE_FILES
 	tests/box.cpp
 	tests/textprint.cpp
 	tests/bodies.cpp
+	tests/fixtures.cpp
 )
 
 add_executable(testbed ${TESTBED_SOURCE_FILES})
